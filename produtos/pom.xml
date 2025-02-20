@@ -8,7 +8,7 @@
 		<version>3.4.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>br.com.example</groupId>
+	<groupId>br.com.api</groupId>
 	<artifactId>produtos</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>produtos</name>
@@ -27,7 +27,7 @@
 		<url/>
 	</scm>
 	<properties>
-		<java.version>21</java.version>
+		<java.version>23</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
