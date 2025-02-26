@@ -1,0 +1,34 @@
+:root {
+    --reseda-green: #717c6eff;
+    --battleship-gray: #898166ff;
+    --hunter-green: #4a6d50ff;
+    --cal-poly-green: #28492cff;
+    --eerie-black: #0a1b16ff;
+    --alabaster: #e6e8deff;
+    --silver: rgb(176, 175, 166);
+    --ebony: #4b4d3dff;
+    --coffee: rgba(120, 84, 51, 0.562);
+    --sage: #abaa86ff;
+}
+
+
+body{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, var(--cal-poly-green),var(--hunter-green), var(--eerie-black));
+}
+
+p{
+    font-size: 5rem;
+    color: yellow;
+}
+
+div{
+    background: url("/images/taxa.jpg");
+    background-size: cover;     
+    justify-content: center;
+    align-items: center;    
+    padding: 100px;
+}
