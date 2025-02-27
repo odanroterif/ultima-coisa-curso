@@ -1,0 +1,75 @@
+
+@media(max-width: 2440px) and (min-width: 1024px) {
+  form{
+  width: 500px;  
+  height: 800px;
+  margin: 11px auto;  
+  padding: 30px;
+  text-align: center;  
+  position: relative;
+  top: 150px;  
+}
+
+form input{
+margin-bottom: 7px;
+}
+
+form input [type="button"]{
+margin-right: 10px;
+}
+
+td{
+  font-size: large;     
+}
+
+div.formulary{  
+  width: 70%;
+  background-color: aqua;
+  height: 100%;    
+}
+
+div.img-box{
+  width: 50%;
+  height: 50%;
+  position: relative;
+  left: 194px;
+  top: 150px;
+}
+
+div.tab{
+  width: 132%;    
+  height: 105vh;
+  background-color: rgb(173, 173, 173);
+  position: relative;  
+  left: 70%;  
+  top: -970px;
+}
+}
+
+
+@media(max-width: 1024px) and (min-width: 720px) {
+  form{
+    width: 500px;  
+    margin: 30px auto;  
+    text-align: center;  
+  }
+  
+  form input{
+  margin-bottom: 7px;
+  }
+  
+  form input [type="button"]{
+  margin-right: 10px;
+  }
+  
+  td{
+    font-size: large;     
+  }
+  div.img-box{
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 194px;
+    top: 20px;
+  }
+}
