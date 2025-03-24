@@ -18,7 +18,7 @@ export default function App()
   const [objproduct, setObjproduct] = React.useState(product);
 
 
-  React.useEffect(() => {
+  React.useEffect(() => {//recorda uma função, ou seja, após todo o app estar renderizado processa as informações que estão dentro dele
     fetch("http://localhost:8080/listar")
     .then(response => response.json())
     .then(response_convert => setProducts(response_convert));
