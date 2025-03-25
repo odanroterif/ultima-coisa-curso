@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, SafeAreaView, Text, TextInput, StyleSheet } from 'react-native';
+import { Button, SafeAreaView, Text, TextInput, Alert } from 'react-native';
 import * as imports from "./import";
 
 
@@ -28,7 +28,7 @@ export default function box() {
                     }
                     else
                     {
-                        alert(`em dolar este valor é ${(parseFloat(coin) / imports.globals.dolar).toFixed(2)} \nem euro este valor é ${(parseFloat(coin) / imports.globals.euro).toFixed(2)}`);
+                        Alert.alert("CONVERTIDO",`em dolar este valor é ${(parseFloat(coin) / imports.globals.dolar).toFixed(2)} \nem euro este valor é ${(parseFloat(coin) / imports.globals.euro).toFixed(2)}`);
                     }                    
                 }}
             />
