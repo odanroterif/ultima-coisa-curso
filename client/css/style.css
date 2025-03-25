@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #d8cece;
+    color: #333;
+    display: flex;        
+}
+
+div#inputs {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: -300px;
+    left: 4%;
+    width: 30%;    
+    padding: 11px;    
+}
+
+div#tab{
+    display: flex;    
+    width:  50%;
+    position: relative;
+    bottom: -300px;
+    left: 15%;    
+}
+
+#nome{
+    width: 70%;
+}
+
+#telefone{
+    width: 50%;
+}
+
+#mail{
+    width: 70%;
+}
+
+h2 {
+    color: #007bff;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    margin-left: 21%;
+    border: none;
+    width: 30%;
+    background-color: #28a745;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.btn-excluir {
+    background-color: #dc3545;
+    width: 55%;    
+}
+
+.btn-excluir:hover {
+    background-color: #c82333;
+}
