@@ -1,0 +1,75 @@
+body{        
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;    
+    margin: 0;      
+    padding: 0;
+}
+
+#backvideo{
+    min-width: 100vw;
+    object-fit: cover;
+    position: fixed;
+    z-index: -1;
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    background-color: rgba(138, 138, 138, 0.459);    
+    width: fit-content;        
+    border-radius: 2%;
+    box-shadow: 1px 11px 1rem rgba(255, 255, 255, 0.562);    
+    align-items: center;    
+    justify-content: center;    
+    padding: 4rem;
+}
+
+.box button{
+    background: rgb(255, 255, 255);
+    color: black;
+    padding: 0.5rem;
+    border-radius: 5px;
+    width: 40%;
+    cursor: pointer;
+    border: none;
+    transition: 0.2s;
+}
+
+.box button:hover{
+    background: rgb(197, 197, 197);    
+}
+
+.box input{
+    padding: 0.5rem;
+    border-radius: 7px;
+    outline: none;
+    height: 1.3rem;
+    width: 20rem;
+}
+
+.interactive{
+    display: flex;
+    width: fit-content;    
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;    
+}
+
+
+@media(max-width: 720px) and (min-width: 480px) {
+    .box{
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        background-color: rgba(138, 138, 138, 0.459);    
+        width: fit-content;        
+        border-radius: 2%;
+        box-shadow: 1px 11px 1rem rgba(255, 255, 255, 0.562);    
+        align-items: center;    
+        justify-content: center;    
+        padding: 4rem;
+    }    
+}
