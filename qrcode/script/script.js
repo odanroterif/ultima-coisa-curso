@@ -9,14 +9,14 @@ url.addEventListener("keydown", (event) => { if (event.key === 'Enter') { QRgene
 function QRgenerate() {
     qrcode.innerHTML = "";
 
-    var verify = 0;
 
     if (/[À-ž]/.test(url.value)) {
         verify = 1;
         alert("FRANCISCO NÃO ACEITA CARACTER ESPECIAL");
     }
 
-    if (url.value !== "" && verify === 0) {
+    if (url.value !== "" && /[À-ž]/.test(url.value) === false) {
+        // eslint-disable-next-line no-unused-vars
         const qr = new QRCode(qrcode, {
             text: url.value,
             width: 300,
