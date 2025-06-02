@@ -10,8 +10,7 @@ function QRgenerate() {
     qrcode.innerHTML = "";
 
 
-    if (/[À-ž]/.test(url.value)) {
-        verify = 1;
+    if (/[À-ž]/.test(url.value)) {        
         alert("FRANCISCO NÃO ACEITA CARACTER ESPECIAL");
     }
 
