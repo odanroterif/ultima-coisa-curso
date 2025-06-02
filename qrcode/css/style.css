@@ -66,17 +66,8 @@ h1{
     text-shadow: 1px 11px 1rem rgba(255, 255, 255, 0.562);    
 }
 
-@media(max-width: 720px) and (min-width: 480px) {
-    .box{
-        display: flex;
-        flex-direction: column;
-        gap: 3rem;
-        background-color: rgba(138, 138, 138, 0.459);    
-        width: fit-content;        
-        border-radius: 2%;
-        box-shadow: 1px 11px 1rem rgba(255, 255, 255, 0.562);    
-        align-items: center;    
-        justify-content: center;    
-        padding: 4rem;
+@media(max-width: 720px) {
+    .box{        
+        flex-direction: column;        
     }    
 }
